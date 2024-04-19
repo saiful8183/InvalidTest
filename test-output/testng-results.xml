@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-19T09:47:27 EDT" name="Suite" finished-at="2024-04-19T09:48:37 EDT" duration-ms="70296">
+    <groups>
+    </groups>
+    <test started-at="2024-04-19T09:47:27 EDT" name="Edge Test" finished-at="2024-04-19T09:47:45 EDT" duration-ms="18330">
+      <class name="parallel.Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parallel.Test@c730b35]" started-at="2024-04-19T09:47:27 EDT" name="setup" finished-at="2024-04-19T09:47:29 EDT" duration-ms="2075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="browsertest()[pri:0, instance:parallel.Test@c730b35]" started-at="2024-04-19T09:47:29 EDT" name="browsertest" finished-at="2024-04-19T09:47:35 EDT" duration-ms="6095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsertest -->
+        <test-method signature="googletest()[pri:0, instance:parallel.Test@c730b35]" started-at="2024-04-19T09:47:35 EDT" name="googletest" finished-at="2024-04-19T09:47:39 EDT" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletest -->
+        <test-method signature="titleTest()[pri:0, instance:parallel.Test@c730b35]" started-at="2024-04-19T09:47:39 EDT" name="titleTest" finished-at="2024-04-19T09:47:45 EDT" duration-ms="6386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:parallel.Test@c730b35]" started-at="2024-04-19T09:47:45 EDT" name="teardown" finished-at="2024-04-19T09:47:45 EDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- parallel.Test -->
+    </test> <!-- Edge Test -->
+    <test started-at="2024-04-19T09:47:45 EDT" name="ChromeTest" finished-at="2024-04-19T09:48:07 EDT" duration-ms="21570">
+      <class name="parallel.Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parallel.Test@40005471]" started-at="2024-04-19T09:47:45 EDT" name="setup" finished-at="2024-04-19T09:47:55 EDT" duration-ms="10001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="browsertest()[pri:0, instance:parallel.Test@40005471]" started-at="2024-04-19T09:47:55 EDT" name="browsertest" finished-at="2024-04-19T09:47:59 EDT" duration-ms="3848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsertest -->
+        <test-method signature="googletest()[pri:0, instance:parallel.Test@40005471]" started-at="2024-04-19T09:47:59 EDT" name="googletest" finished-at="2024-04-19T09:48:01 EDT" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletest -->
+        <test-method signature="titleTest()[pri:0, instance:parallel.Test@40005471]" started-at="2024-04-19T09:48:01 EDT" name="titleTest" finished-at="2024-04-19T09:48:07 EDT" duration-ms="6083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:parallel.Test@40005471]" started-at="2024-04-19T09:48:07 EDT" name="teardown" finished-at="2024-04-19T09:48:07 EDT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- parallel.Test -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-04-19T09:48:07 EDT" name="FirefoxTest" finished-at="2024-04-19T09:48:37 EDT" duration-ms="30360">
+      <class name="parallel.Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parallel.Test@367ffa75]" started-at="2024-04-19T09:48:07 EDT" name="setup" finished-at="2024-04-19T09:48:09 EDT" duration-ms="2211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="browsertest()[pri:0, instance:parallel.Test@367ffa75]" started-at="2024-04-19T09:48:09 EDT" name="browsertest" finished-at="2024-04-19T09:48:28 EDT" duration-ms="19172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsertest -->
+        <test-method signature="googletest()[pri:0, instance:parallel.Test@367ffa75]" started-at="2024-04-19T09:48:28 EDT" name="googletest" finished-at="2024-04-19T09:48:30 EDT" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletest -->
+        <test-method signature="titleTest()[pri:0, instance:parallel.Test@367ffa75]" started-at="2024-04-19T09:48:30 EDT" name="titleTest" finished-at="2024-04-19T09:48:36 EDT" duration-ms="6258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:parallel.Test@367ffa75]" started-at="2024-04-19T09:48:36 EDT" name="teardown" finished-at="2024-04-19T09:48:37 EDT" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- parallel.Test -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
