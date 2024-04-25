@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Manha\eclipse-workspace\AutomationPractice\Paralleltestng.xml</span>
+                    <span>C:\Users\Manha\eclipse-workspace\AutomationPractice\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">12 methods, 3 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCasess">TestNegetiveTestCasess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCasess">TestNegetiveTestCasess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCasesss">TestNegetiveTestCasesss</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,47 +127,47 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="browsertest">browsertest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCases">TestNegetiveTestCases</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="browsertest">browsertest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCases">TestNegetiveTestCases</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="browsertest">browsertest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCases">TestNegetiveTestCases</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="googletest">googletest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCasess">TestNegetiveTestCasess</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="googletest">googletest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCasesss">TestNegetiveTestCasesss</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="googletest">googletest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestNegetiveTestCasesss">TestNegetiveTestCasesss</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="titleTest">titleTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestPositiveTestCases">TestPositiveTestCases</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="titleTest">titleTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestPositiveTestCases">TestPositiveTestCases</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parallel.Test" class="method navigator-link" hash-for-method="titleTest">titleTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="negativeTest.InvalidCredencial" class="method navigator-link" hash-for-method="TestPositiveTestCases">TestPositiveTestCases</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -158,73 +182,162 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">parallel.Test</span>
+              <img src="failed.png"/>
+              <span class="class-name">negativeTest.InvalidCredencial</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="browsertest">
-                  </a> <!-- browsertest -->
-                  <span class="method-name">browsertest</span>
+                  <a name="TestNegetiveTestCasess">
+                  </a> <!-- TestNegetiveTestCasess -->
+                  <span class="method-name">TestNegetiveTestCasess</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: MicrosoftEdge=124.0.2478.51)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4d92bba766a88d0ab05a8c956e12eb0f, get {url=https://www.saucedemo.com/v1/index.html}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64690}, msedge: {msedgedriverVersion: 124.0.2478.51 (e23a9b7d0a14..., userDataDir: C:\Users\Manha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64690/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d92bba766a88d0ab05a8c956e12eb0f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at negativeTest.InvalidCredencial.TestNegetiveTestCasess(InvalidCredencial.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="browsertest">
-                  </a> <!-- browsertest -->
-                  <span class="method-name">browsertest</span>
+                  <a name="TestNegetiveTestCasess">
+                  </a> <!-- TestNegetiveTestCasess -->
+                  <span class="method-name">TestNegetiveTestCasess</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: MicrosoftEdge=124.0.2478.51)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0aac5bff230ddcc9d6f7ec5a5b56163c, get {url=https://www.saucedemo.com/v1/index.html}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64857}, msedge: {msedgedriverVersion: 124.0.2478.51 (e23a9b7d0a14..., userDataDir: C:\Users\Manha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64857/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aac5bff230ddcc9d6f7ec5a5b56163c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at negativeTest.InvalidCredencial.TestNegetiveTestCasess(InvalidCredencial.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="browsertest">
-                  </a> <!-- browsertest -->
-                  <span class="method-name">browsertest</span>
+                  <a name="TestNegetiveTestCasesss">
+                  </a> <!-- TestNegetiveTestCasesss -->
+                  <span class="method-name">TestNegetiveTestCasesss</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: MicrosoftEdge=124.0.2478.51)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [37e29247cf567be6ced2978f57abd0cd, get {url=https://www.saucedemo.com/v1/index.html}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64888}, msedge: {msedgedriverVersion: 124.0.2478.51 (e23a9b7d0a14..., userDataDir: C:\Users\Manha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64888/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37e29247cf567be6ced2978f57abd0cd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at negativeTest.InvalidCredencial.TestNegetiveTestCasesss(InvalidCredencial.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">negativeTest.InvalidCredencial</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestNegetiveTestCases">
+                  </a> <!-- TestNegetiveTestCases -->
+                  <span class="method-name">TestNegetiveTestCases</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="googletest">
-                  </a> <!-- googletest -->
-                  <span class="method-name">googletest</span>
+                  <a name="TestNegetiveTestCases">
+                  </a> <!-- TestNegetiveTestCases -->
+                  <span class="method-name">TestNegetiveTestCases</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="googletest">
-                  </a> <!-- googletest -->
-                  <span class="method-name">googletest</span>
+                  <a name="TestNegetiveTestCases">
+                  </a> <!-- TestNegetiveTestCases -->
+                  <span class="method-name">TestNegetiveTestCases</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="googletest">
-                  </a> <!-- googletest -->
-                  <span class="method-name">googletest</span>
+                  <a name="TestNegetiveTestCasess">
+                  </a> <!-- TestNegetiveTestCasess -->
+                  <span class="method-name">TestNegetiveTestCasess</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="titleTest">
-                  </a> <!-- titleTest -->
-                  <span class="method-name">titleTest</span>
+                  <a name="TestNegetiveTestCasesss">
+                  </a> <!-- TestNegetiveTestCasesss -->
+                  <span class="method-name">TestNegetiveTestCasesss</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="titleTest">
-                  </a> <!-- titleTest -->
-                  <span class="method-name">titleTest</span>
+                  <a name="TestNegetiveTestCasesss">
+                  </a> <!-- TestNegetiveTestCasesss -->
+                  <span class="method-name">TestNegetiveTestCasesss</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="titleTest">
-                  </a> <!-- titleTest -->
-                  <span class="method-name">titleTest</span>
+                  <a name="TestPositiveTestCases">
+                  </a> <!-- TestPositiveTestCases -->
+                  <span class="method-name">TestPositiveTestCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestPositiveTestCases">
+                  </a> <!-- TestPositiveTestCases -->
+                  <span class="method-name">TestPositiveTestCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestPositiveTestCases">
+                  </a> <!-- TestPositiveTestCases -->
+                  <span class="method-name">TestPositiveTestCases</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,7 +345,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Manha\eclipse-workspace\AutomationPractice\Paralleltestng.xml</span>
+            <span class="header-content">C:\Users\Manha\eclipse-workspace\AutomationPractice\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -242,19 +355,19 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Edge Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;parallel.Test&quot;/&gt;
+      &lt;class name=&quot;negativeTest.InvalidCredencial&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Edge Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;parallel.Test&quot;/&gt;
+      &lt;class name=&quot;negativeTest.InvalidCredencial&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTest --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;parallel.Test&quot;/&gt;
+      &lt;class name=&quot;negativeTest.InvalidCredencial&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -300,48 +413,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'browsertest')
-data.setCell(0, 2, 'parallel.Test')
-data.setCell(0, 3, 28656);
+data.setCell(0, 1, 'TestPositiveTestCases')
+data.setCell(0, 2, 'negativeTest.InvalidCredencial')
+data.setCell(0, 3, 10004);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'browsertest')
-data.setCell(1, 2, 'parallel.Test')
-data.setCell(1, 3, 22024);
+data.setCell(1, 1, 'TestNegetiveTestCasesss')
+data.setCell(1, 2, 'negativeTest.InvalidCredencial')
+data.setCell(1, 3, 9287);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'browsertest')
-data.setCell(2, 2, 'parallel.Test')
-data.setCell(2, 3, 13715);
+data.setCell(2, 1, 'TestPositiveTestCases')
+data.setCell(2, 2, 'negativeTest.InvalidCredencial')
+data.setCell(2, 3, 7709);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'googletest')
-data.setCell(3, 2, 'parallel.Test')
-data.setCell(3, 3, 8041);
+data.setCell(3, 1, 'TestPositiveTestCases')
+data.setCell(3, 2, 'negativeTest.InvalidCredencial')
+data.setCell(3, 3, 6562);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'titleTest')
-data.setCell(4, 2, 'parallel.Test')
-data.setCell(4, 3, 5724);
+data.setCell(4, 1, 'TestNegetiveTestCasesss')
+data.setCell(4, 2, 'negativeTest.InvalidCredencial')
+data.setCell(4, 3, 3989);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'titleTest')
-data.setCell(5, 2, 'parallel.Test')
-data.setCell(5, 3, 5665);
+data.setCell(5, 1, 'TestNegetiveTestCases')
+data.setCell(5, 2, 'negativeTest.InvalidCredencial')
+data.setCell(5, 3, 3221);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'titleTest')
-data.setCell(6, 2, 'parallel.Test')
-data.setCell(6, 3, 5103);
+data.setCell(6, 1, 'TestNegetiveTestCases')
+data.setCell(6, 2, 'negativeTest.InvalidCredencial')
+data.setCell(6, 3, 3212);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'googletest')
-data.setCell(7, 2, 'parallel.Test')
-data.setCell(7, 3, 2448);
+data.setCell(7, 1, 'TestNegetiveTestCasess')
+data.setCell(7, 2, 'negativeTest.InvalidCredencial')
+data.setCell(7, 3, 3089);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'googletest')
-data.setCell(8, 2, 'parallel.Test')
-data.setCell(8, 3, 1558);
+data.setCell(8, 1, 'TestNegetiveTestCases')
+data.setCell(8, 2, 'negativeTest.InvalidCredencial')
+data.setCell(8, 3, 3080);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestNegetiveTestCasesss')
+data.setCell(9, 2, 'negativeTest.InvalidCredencial')
+data.setCell(9, 3, 2743);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestNegetiveTestCasess')
+data.setCell(10, 2, 'negativeTest.InvalidCredencial')
+data.setCell(10, 3, 2639);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestNegetiveTestCasess')
+data.setCell(11, 2, 'negativeTest.InvalidCredencial')
+data.setCell(11, 3, 2577);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 58 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -367,67 +492,73 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">parallel.Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">negativeTest.InvalidCredencial</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup(edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">browsertest</span>
-                <span class="method-start">3313 ms</span>
+                <span class="method-name">TestNegetiveTestCases</span>
+                <span class="method-start">2863 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">googletest</span>
-                <span class="method-start">25345 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestNegetiveTestCasess</span>
+                <span class="method-start">6077 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">titleTest</span>
-                <span class="method-start">33387 ms</span>
+                <span class="method-name">TestNegetiveTestCasesss</span>
+                <span class="method-start">8660 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">39063 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">TestPositiveTestCases</span>
+                <span class="method-start">12651 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">39334 ms</span>
+                <span class="method-start">19254 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">browsertest</span>
-                <span class="method-start">40619 ms</span>
+                <span class="method-name">TestNegetiveTestCases</span>
+                <span class="method-start">19977 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">googletest</span>
-                <span class="method-start">69276 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestNegetiveTestCasess</span>
+                <span class="method-start">23200 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">titleTest</span>
-                <span class="method-start">71725 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestNegetiveTestCasesss</span>
+                <span class="method-start">25841 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">77454 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">TestPositiveTestCases</span>
+                <span class="method-start">28587 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test before">
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">77557 ms</span>
+                <span class="method-start">38606 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">browsertest</span>
-                <span class="method-start">79702 ms</span>
+                <span class="method-name">TestNegetiveTestCases</span>
+                <span class="method-start">40565 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">googletest</span>
-                <span class="method-start">93418 ms</span>
+                <span class="method-name">TestNegetiveTestCasess</span>
+                <span class="method-start">43647 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">titleTest</span>
-                <span class="method-start">94980 ms</span>
+                <span class="method-name">TestNegetiveTestCasesss</span>
+                <span class="method-start">46738 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">100087 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">TestPositiveTestCases</span>
+                <span class="method-start">56026 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

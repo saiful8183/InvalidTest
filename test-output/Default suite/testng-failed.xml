@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parallel.Test">
+      <class name="negativeTest.InvalidCredencial">
         <methods>
-          <include name="googletest"/>
-          <include name="browsertest"/>
-          <include name="teardown"/>
           <include name="setup"/>
-          <include name="titleTest"/>
+          <include name="TestNegetiveTestCases"/>
+          <include name="TestNegetiveTestCasess"/>
+          <include name="TestPositiveTestCases"/>
+          <include name="TestNegetiveTestCasesss"/>
         </methods>
-      </class> <!-- parallel.Test -->
+      </class> <!-- negativeTest.InvalidCredencial -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
