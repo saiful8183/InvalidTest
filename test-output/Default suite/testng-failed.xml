@@ -6,10 +6,7 @@
       <class name="negativeTest.InvalidCredencial">
         <methods>
           <include name="setup"/>
-          <include name="TestNegetiveTestCases"/>
           <include name="TestNegetiveTestCasess"/>
-          <include name="TestPositiveTestCases"/>
-          <include name="TestNegetiveTestCasesss"/>
         </methods>
       </class> <!-- negativeTest.InvalidCredencial -->
     </classes>

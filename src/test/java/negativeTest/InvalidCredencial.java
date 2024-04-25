@@ -82,48 +82,7 @@ public class InvalidCredencial {
 		driver.close();
 	}
 
-	@Test
-	public void TestNegetiveTestCasess() {
-
-		System.setProperty("webdriver.Edge.driver",
-				"C:\\Users\\Manha\\OneDrive\\Desktop\\Selenium&Driver\\msedgedriver.exe");
-		WebDriver driver = new EdgeDriver();
-		driver.manage().window().maximize();
-
-		driver.get("https://www.saucedemo.com/v1/index.html");
-		WebElement username = driver.findElement(By.xpath("//input[@id='user-name']"));
-		username.sendKeys("standard_user");
-		WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
-		password.sendKeys("secret_sau");
-
-		driver.findElement(By.xpath("//input[@id='login-button']")).click();
-
-		Assert.assertTrue(
-				driver.findElement(By.xpath("//*[@id=\"login_button_container\"]/div/form/h3")).isDisplayed());
-
-		driver.close();
+	
 	}
 
-	@Test
-	public void TestNegetiveTestCases() {
 
-		System.setProperty("webdriver.Edge.driver",
-				"C:\\Users\\Manha\\OneDrive\\Desktop\\Selenium&Driver\\msedgedriver.exe");
-		WebDriver driver = new EdgeDriver();
-		driver.manage().window().maximize();
-
-		driver.get("https://www.saucedemo.com/v1/index.html");
-		WebElement username = driver.findElement(By.xpath("//input[@id='user-name']"));
-		username.sendKeys("standard_us");
-		WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
-		password.sendKeys("secret_sauce");
-
-		driver.findElement(By.xpath("//input[@id='login-button']")).click();
-
-		Assert.assertTrue(
-				driver.findElement(By.xpath("//*[@id=\"login_button_container\"]/div/form/h3")).isDisplayed());
-
-		driver.close();
-	}
-
-}

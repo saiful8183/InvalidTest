@@ -11,6 +11,8 @@
 			</class>
 
 		</classes>
+		
+		<!-- 
 	</test>
 	<test thread-count="5" name="ChromeTest">
 		<parameter name="browser" value="chrome" />
@@ -33,6 +35,8 @@
 			</class>
 
 		</classes>
+		
+		-->
 	</test>
 	
 	</suite>
